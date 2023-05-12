@@ -1,0 +1,110 @@
+
+html{
+  background-color: black;
+  color:gold;
+}.a {
+    display: flex;
+    justify-content: center;
+  }
+  .Executives,.Video-Editors,.Web-Developers,.Graphic-Designers{
+display:flex;
+flex-direction:column;
+padding-left:12rem;
+padding-right:12rem;
+  }
+  
+    .name {
+      text-align: center;
+      font-size: 3rem;
+      border: 2px solid black;
+      border-radius: 15px;
+      margin-top: 1rem;
+      margin-left: 30rem;
+      margin-right: 31rem;
+      background-color: gold;
+      color: RED;
+    }
+  
+    .name1, .name2, .name3, .name4, .name5, .name6, .name7, .name8, .name9, .name10, .name11, .name12, .name13, .name14 {
+      display: flex;
+      justify-content: space-between;
+      border: 2px solid black;
+      border-radius: 15px;
+      margin: 2rem;
+      font-size: 2rem;
+      background-color: #903232;
+      color: gold;
+    }
+    .A, .B, .C, .D {
+      border: 2px solid black;
+      border-radius: 10px;
+      margin: 2rem;
+      background-color: #13a9a9;
+      background-size: cover;
+      width: 90rem;
+    }
+.name-and-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social {
+  display: flex;
+  width: 9rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 14rem;
+}
+.heading {
+  font-size: 1.3rem;
+  text-align: center;
+  border: 2px solid red;
+  border-radius: 20px;
+  height: 10rem;
+  width: 35rem;
+  background-color: #227db3;
+  color: #fbd60e;
+  text-align: center;
+  margin-left: 11rem;
+}
+.content {
+  font-size: 2rem;
+  text-align: center;
+  border: 2px solid red;
+  background-color: green;
+  width: 93rem;
+  margin-left: 14rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 14rem;font-size: 2rem;
+  text-align: center;
+  border: 2px solid red;
+  background-color: green;
+  width: 61rem;
+  margin-left: 14rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 14rem;
+}
+@media (max-width:1366px){
+  .name{
+    width:300.8px;
+  }
+}
+@media (max-width:1192px){
+  
+    .name1,.name2.name3,.name4,.name5.name6,.name7,.name8.name9,.name10,.name11.name12,.name13,.name14{
+    width:867.2px;
+    }
+}
+.name-and-photo img {
+  height: 4rem;
+  width: 5rem;
+}
+.logo img {
+  height: 10rem;
+  width: 11rem;
+}
+.logo {
+  margin-left: 6rem;
+}
